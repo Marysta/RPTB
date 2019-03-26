@@ -45,6 +45,11 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -63,26 +68,28 @@
 			<div class="top-menu">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-2">
-							<div class="navbar-brand"><a href="index.html"><img class="img-responsive" src="images/rptb_logo.png"></a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
+						<div class="col-xs-12 text-center menu-1">
 							<ul>
+									<li><img src="images/rptb_logo.png" width="60" height="50" class="d-inline-block align-top" alt=""></li>
 								<li><a href="index.html">Головна</a></li>
-								<li class="active has-dropdown">
+								<li><a href="blog.html">Блог</a></li>
+								<li><a href="about.html">Про нас</a></li>
+								<li><a href="contact.html">Контакти</a></li>
+									<li class="has-dropdown">
 									<a href="work.html">Послуги</a>
 									<ul class="dropdown">
+									
 										<li><a href="proektyvannja.html">Проектування</a></li>
 										<li><a href="montazh.html">Монтаж і обслуговування</a></li>
 										<li><a href="pozhezhna.html">Пожежна безпека</a></li>
 										<li><a href="technogenna.html">Техногенна безпека</a></li>
 										<li><a href="obladnannja.html">Пожежне обладнання</a></li>
+										<li><a href="bezpeka.html">Безпека</a></li>
+										<li><a href="sposterezhennja.html">Пожежне спостереження</a></li>
 									</ul>
 								</li>
-								
-								<li><a href="blog.html">Блог</a></li>
-								<li><a href="about.html">Про нас</a></li>
-								<li><a href="contact.html">Контакти</a></li>
+								<li><a href="info.html">Корисна інформація</a></li>
+								<li><a href="index_en.html">EN</a></li>
 							</ul>
 						</div>
 					</div>
@@ -98,7 +105,7 @@
 			   			<div class="row">
 				   			<div class="col-md-8 col-sm-12 col-md-offset-2 slider-text">
 				   				<div class="slider-text-inner text-center">
-				   					<h2>Р.П.Т.Б.</h2>
+				   					
 				   					<h1>Пожежна безпека</h1>
 				   				</div>
 				   			</div>
@@ -119,8 +126,11 @@
 								<i class="flaticon-engineer"></i>
 							</span>
 							<div class="desc">
-								<h3>Пожежний консалтинг</h3>
-								<p>Короткий опис послуги</p>
+								<h3>Аутсорсинг пожежної безпеки</h3>
+								<p><i class="icon-check"></i>Оформлення необхідної документації.
+<i class="icon-check"></i>Виконання всіх функцій інженера з пожежної безпеки.
+<i class="icon-check"></i>Юридичний супровід під час перевірок.
+</p>
 							</div>
 						</div>
 					</div>
@@ -130,8 +140,10 @@
 								<i class="flaticon-engineering"></i>
 							</span>
 							<div class="desc">
-								<h3>Пожежний консалтинг</h3>
-								<p>Короткий опис послуги</p>
+								<h3>Оцінка (експретиза) протипожежного стану</h3>
+								<p>В ході проведення експертної оцінки протипожежного стану об’єкту Ви отримаєте інформацію про:
+<a class="section-scroll" href="#ozinka"><i class="icon-check"></i> детальніше</a> </p>
+   
 								</div>
 						</div>
 					</div>
@@ -141,8 +153,8 @@
 								<i class="flaticon-skyline"></i>
 							</span>
 							<div class="desc">
-								<h3>Пожежний консалтинг</h3>
-								<p>Короткий опис послуги</p>
+								<h3>Проведення навчання з питань пожежної безпеки</h3>
+								<p>Пожежно-технічний мінімум та спеціальне навчання посадових осіб з питань пожежної безпеки <a class="section-scroll" href="#navchannja"><i class="icon-check"></i> детальніше</a> </p>
 								</div>
 						</div>
 					</div>
@@ -152,8 +164,8 @@
 								<i class="flaticon-crane"></i>
 							</span>
 							<div class="desc">
-								<h3>Пожежний консалтинг</h3>
-								<p>Короткий опис послуги</p>
+								<h3>Плани евакуації</h3>
+								<p>На об’єктах з постійним або тимчасовим перебуванням на них 100 і більше осіб або таких <a class="section-scroll" href="#plany"><i class="icon-check"></i> детальніше</a> </p>
 								</div>
 						</div>
 					</div>
@@ -163,8 +175,8 @@
 								<i class="flaticon-sketch"></i>
 							</span>
 							<div class="desc">
-								<h3>Пожежний консалтинг</h3>
-								<p>Короткий опис послуги</p>
+								<h3>Категорування приміщень за вибухопожежною та пожежною небезпекою </h3>
+								<p>Визначення категорій приміщень і будинків <a class="section-scroll" href="#kategor"><i class="icon-check"></i> детальніше</a></p>
 								</div>
 						</div>
 					</div>
@@ -174,90 +186,117 @@
 								<i class="flaticon-conveyor"></i>
 							</span>
 							<div class="desc">
-								<h3>Пожежний консалтинг</h3>
-								<p>Короткий опис послуги</p>
+								<h3>Розрахунок часу і шляхів евакуації</h3>
+								<p>Розрахунок необхідного часу для евакуації - це розрахунок за допомогою якого можна визначити максимально можливий інтервал часу <a class="section-scroll" href="#chas"><i class="icon-check"></i> детальніше</a> </p>
 								</div>
 						</div>
 					</div>
+						<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-crane"></i>
+							</span>
+							<div class="desc">
+								<h3>Розрахунок необхідної кількості вогнегасників</h3>
+								<p></p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-sketch"></i>
+							</span>
+							<div class="desc">
+								<h3>Розрахунок конструкцій на вогнестійкість</h3>
+								<p></p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-conveyor"></i>
+							</span>
+							<div class="desc">
+								<h3>Замір опору ізоляції і перевірка спрацювання приладів захисту електричних мереж та електроустановок від короткого замикання
+</h3>
+								<p></p>
+								</div>
+						</div>
+					</div>
+					
+			
+		
+		
+
 				</div>
 			</div>
 		</div>
 
-		<div id="colorlib-testimony" class="colorlib-light-grey">
+		<div id="ozinka" class="colorlib-light-grey">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 animate-box colorlib-heading animate-box">
-						<span class="sm">Співпраця</span>
-						<h2><span class="thin">Наші</span> <span class="thick">партнери</span></h2>
+					<div class="col-md-6 animate-box colorlib-heading animate-box">
+						<span class="sm"></span>
+						<h2><span class="thick">Оцінка</span> <span class="thin">(експретиза)</span></h2>
 					</div>
-					<div class="col-md-7 col-md-push-1">
-						<div class="row animate-box">
-							<span class="icon"><i class="icon-quotes-left"></i></span>
-							<div class="owl-carousel1">
-								<div class="item">
-									<div class="testimony-slide active">
-										<div class="testimony-wrap">
-											<figure>
-												<img src="images/rptb_logo_sm.png" alt="user">
-											</figure>
-											<blockquote>
-												<span>"Назва компанії"</span>
-												<p>Можна сюди додати їх відгук, можна і не давати, а просто залишити логотип і назву компанії</p>
-											</blockquote>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active">
-										<div class="testimony-wrap">
-											<figure>
-												<img src="images/rptb_logo_sm.png" alt="user">
-											</figure>
-											<blockquote>
-												<span>"Назва компанії"</span>
-												<p>Можна сюди додати їх відгук, можна і не давати, а просто залишити логотип і назву компанії</p>
-											</blockquote>
-										</div>
-									</div>
-								</div>
+					<div class="col-md-6">
+					<div class="about animate-box">
+							<h2>Оцінка (експретиза) протипожежного стану  </h2>
+							<p>В ході проведення експертної оцінки протипожежного стану об’єкту Ви отримаєте інформацію про:</p>
 								
-								<div class="item">
-									<div class="testimony-slide active">
-										<div class="testimony-wrap">
-											<figure>
-												<img src="images/rptb_logo_sm.png" alt="user">
-											</figure>
-											<blockquote>
-												<span>"Назва компанії"</span>
-												<p>Можна сюди додати їх відгук, можна і не давати, а просто залишити логотип і назву компанії</p>
-											</blockquote>
-										</div>
-									</div>
-								</div>
+								
+								<p><i class="icon-check"></i> відповідність приміщень, будівель, споруд і їх територій, технологічних процесів виробництва нормам пожежної безпеки;</p>
+								<p><i class="icon-check"></i> достатність і відповідність організаційних, технічних та інших заходів, спрямованих на попередження пожеж, забезпечення безпеки людей, зниження можливих матеріальних витрат і зменшення негативних наслідків у разі їх виникнення;</p>
+								<p><i class="icon-check"></i> відповідність умов для швидкого виклику пожежних підрозділів і успішного гасіння пожежі у разі її виникнення.</p>
+							
+							</ul>
+					
+					
+						</div>
+					
+					</div>
+						<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Оцінка (експертиза) протипожежного стану та оформлення декларації відповідності матеріально-технічної бази вимогам законодавства з питань пожежної безпеки</td>
+      <td>від 1000грн.</td>
+      
+    </tr>
+ 
+  </tbody>
+</table>
+					
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-	
-		<div id="colorlib-subscribe">
+			<div id="colorlib-subscribe">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 colorlib-heading animate-box">
-						<h2>Замовити дзвінок</h2>
+					
 						<div class="row">
 							<div class="col-md-7">
 								<p>Безкоштовний виїзд на об'єкт та консультація фахівця</p>
 							</div>
 							<div class="col-md-5">
-								<form class="form-inline qbstp-header-subscribe">
+							<form class="form-inline qbstp-header-subscribe">
 									<div class="row">
 										<div class="col-md-12 col-md-offset-0">
 											<div class="form-group">
-												<input type="text" class="form-control" id="email" placeholder="Ваш номер телефону">
+												<input type="text" class="form-control" id="email" placeholder="Ваш телефон">
 												<button type="submit" class="btn btn-primary">Замовити</button>
 											</div>
 										</div>
@@ -269,24 +308,423 @@
 				</div>
 			</div>
 		</div>
+		
+ 	<div id="navchannja" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 animate-box colorlib-heading animate-box">
+						<span class="sm"></span>
+						<h2><span class="thick">Навчання</span> <span class="thin"></span></h2>
+					</div>
+					<div class="col-md-6">
+					<div class="about animate-box">
+							<h2>Проведення навчання з питань пожежної безпеки</h2>
+							
+								
+								
+								<p><i class="icon-check"></i> Спеціальне навчання посадових осіб з питань пожежної безпеки. Проводиться з періодичністю 1 раз на 3 роки. Відповідно до отриманих знань та Посвідчення посадові особи мають право проводити протипожежні інструктажі.</p>
+								<p><i class="icon-check"></i> Пожежно-технічний мінімум. Особи, яких приймають на роботу, пов’язану з підвищеною пожежною небезпекою (електро-, газозварювальники, механіки, оператори АЗС, відповідальні за газове господарство та інші), повинні попередньо (до початку самостійного виконання роботи) пройти спеціальне навчання (пожежно-технічний мінімум). Навчання з пожежно-технічного мінімуму проводиться 1 раз на рік.
+</p>
+							
+							
+						
+					
+					
+						</div>
+					
+					</div>
+					</div>
+						<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td scope="row">Навчання та перевірка знань з пожежної безпеки (пожежно-технічний мінімум)
+</td>
+      <td>470грн./особа</td>
+     
+    </tr>
+     
+   
+  </tbody>
+</table>
+					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div id="colorlib-subscribe">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 colorlib-heading animate-box">
+					
+						<div class="row">
+							<div class="col-md-12">
+								<p>Ми робимо життя безпечним!</p>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div id="kategor" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 animate-box colorlib-heading animate-box">
+						<span class="sm"></span>
+						<h2><span class="thick">Категорування</span> <span class="thin"></span></h2>
+					</div>
+					<div class="col-md-6">
+					<div class="about animate-box">
+							<h2>Категорування приміщень за вибухопожежною та пожежною небезпекою 
+</h2>
+							<p>Визначення категорій приміщень і будинків (або частин будинків у межах протипожежних відсіків) виробничого та складського призначення, лабораторій, а також зовнішніх установок за вибухопожежною та пожежною небезпекою залежно від кількості й пожежовибухонебезпечних властивостей речовин і матеріалів, що в них знаходяться (зберігаються, переробляються, транспортуються), з урахуванням особливостей технологічних процесів виробництв та об’ємно-планувальних рішень, наявності технічних засобів, що запобігають виникненню аварійних ситуацій.</p>
+								
+								
+								
+					
+						</div>
+					
+					</div>
+						<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Категорування приміщень за вибухопожежною та пожежною небезпекою </td>
+      <td>від 4000грн.</td>
+      
+    </tr>
+ 
+   
+  </tbody>
+</table>
+				
+	 <div class="price-heading clearfix">
+                        <h3>Вартість розрахунку категорій  для приміщень площею <span class="thick">до 100 м2</span></h3>
+                    </div>
+					<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Роботи/послуги</th>
+      <th scope="col">Кількість приміщень</th>
+      <th scope="col">Вартість, грн/од.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Розрахунок категорії (визнаяення категорії) по вибухопожежній і пожежній безпеці, визначення класу за зони ПУЄ</td>
+      <td>1</td>
+      <td>1202,00</td>
+    </tr>
+    <tr>
+      <td scope="row">
+</td>
+      <td>2-4</td>
+     <td>900,00</td>
+    </tr>
+    <tr>
+      <td scope="row"></td>
+      <td>5-10</td>
+      <td>603,00</td>
+    </tr>
+       <tr>
+      <td scope="row"></td>
+      <td>11-20</td>
+      <td>450,00</td>
+    </tr>
+    <tr>
+      <td scope="row">
+</td>
+      <td>більше 20</td>
+      <td>301,00</td>
+    </tr>
+    <tr>
+      <td scope="row">Перерахунок категорій</td>
+      <td></td>
+      <td>Індивідуально</td>
+    </tr>
+    
+  </tbody>
+</table>
+	 <div class="price-heading clearfix">
+                        <h3>Вартість розрахунку категорій  для приміщень площею <span class="thick">більше 100 м2</span></h3>
+                    </div>
+					<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Роботи/послуги</th>
+      <th scope="col">Вартість, грн/м2.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Розрахунок категорії (визнаяення категорії) по вибухопожежній і пожежній безпеці, визначення класу за зони ПУЄ</td>
+      <td>від 6,00 до 2,00</td>
+      
+    </tr>
+   
+    
+  </tbody>
+</table>
+					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<div id="colorlib-subscribe">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 colorlib-heading animate-box">
+					
+						<div class="row">
+							<div class="col-md-12">
+								<p>РПТБ - Реінженіринг пожежної та техногенної безпеки</p>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div id="plany" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 animate-box colorlib-heading animate-box">
+						<span class="sm"></span>
+						<h2><span class="thick">Плани</span> <span class="thin">Евакуації</span></h2>
+					</div>
+					<div class="col-md-6">
+					<div class="about animate-box">
+							<h2></h2>
+							
+								
+								
+								<p>На об’єктах з постійним або тимчасовим перебуванням на них 100 і більше осіб або таких, що мають хоча б одне окреме приміщення із одночасним перебуванням 50 і більше осіб, у будинках та спорудах (крім житлових будинків), котрі мають два поверхи і більше, у разі одночасного перебування на поверсі більше 25 осіб, а для одноповерхових – більше 50 осіб, мають бути розроблені і вивішені на видимих місцях плани (схеми) евакуації людей на випадок пожежі</p>
+							
+</p>
+						</div>
+					
+					</div>
+					</div>
+						<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td scope="row">Плани евакуації – А3 – звичайні ламіновані 
+</td>
+      <td>1000 грн</td>
+     
+    </tr>
+     <tr>
+      <td scope="row">Плани евакуації – А3 – самосвітні 
+</td>
+      <td>1500 грн</td>
+     
+    </tr>
+   
+  </tbody>
+</table>
+					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="colorlib-subscribe">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 colorlib-heading animate-box">
+					
+						<div class="row">
+							<div class="col-md-7">
+								<p>Безкоштовний виїзд на об'єкт та консультація фахівця</p>
+							</div>
+							<div class="col-md-5">
+							<form class="form-inline qbstp-header-subscribe">
+									<div class="row">
+										<div class="col-md-12 col-md-offset-0">
+											<div class="form-group">
+												<input type="text" class="form-control" id="email" placeholder="Ваш телефон">
+												<button type="submit" class="btn btn-primary">Замовити</button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div id="chas" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 animate-box colorlib-heading animate-box">
+						<span class="sm"></span>
+						<h2><span class="thick">Розрахунок часу</span> <span class="thin">і шляхів евакуації</span></h2>
+					</div>
+					<div class="col-md-6">
+					<div class="about animate-box">
+							<p>Розрахунок необхідного часу для евакуації - це розрахунок за допомогою якого можна визначити максимально можливий інтервал часу для евакуації людей з будівлі зазнавши будь-якого впливу небезпечних факторів пожежі. Якщо правильно порівняти такий інтервал часу з фактичним часом, який відведений на евакуацію, можна вирахувати рівень забезпечення або ж незабезпечення безпеки для евакуації людей.
+</p>
+<p>Основою розрахунку часу вважається час, який необхідно для швидкого проходу чітко визначеної кількості людей через спеціальні виходи для евакуації.</p>
+							
+								
+								
+								<p>Розрахунок проводиться за спеціальною методикою для визначення пожежного ризику в будівлі. Необхідність розрахунку часу евакуації при пожежі продиктована багатьма факторами. Основним є визначення розміру і конструкції евакуаційних шляхів, які забезпечують евакуацію людей, ще до того, як небезпечні фактори досягнуть своїх гранично допустимих значень.
+</p>
+							
+</p>
+							
+							
+						
+					
+					
+						</div>
+					
+					</div>
+					</div>
+						<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td scope="row">Розрахунок часу і шляхів евакуації 
+</td>
+      <td>від 5000 грн</td>
+     
+    </tr>
+    
+   
+  </tbody>
+</table>
+					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box colorlib-heading animate-box">
+						<span class="sm"></span>
+						<h2><span class="thin">Вартість </span> <span class="thick">Послуг</span></h2>
+						<table class="table table-striped text-left">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Розрахунок необхідної кількості вогнегасників </td>
+      <td>від 1000грн.</td>
+      
+    </tr>
+    <tr>
+      <td scope="row">Замір опору ізоляції і перевірка спрацювання приладів захисту електричних мереж та електроустановок від короткого замикання 
+</td>
+      <td>від 1000грн</td>
+     
+    </tr>
+     <tr>
+      <td scope="row">Розрахунок конструкцій на вогнестійкість 
+</td>
+      <td>від 5000грн</td>
+     
+    </tr>
+     <tr>
+      <td scope="row">Оцінка (експертиза) протипожежного стану та оформлення декларації відповідності матеріально-технічної бази вимогам законодавства з питань пожежної безпеки </td>
+      <td>від 1000грн.</td>
+      
+    </tr>
+    <tr>
+      <td scope="row">Навчання та перевірка знань з пожежної безпеки (пожежно-технічний мінімум)
+</td>
+      <td>1000грн/ocоба</td>
+     
+    </tr>
+     <tr>
+      <td scope="row">Замір опору ізоляції і перевірка спрацювання приладів захисту електричних мереж та електроустановок від короткого замикання
+      <td>від 1000грн</td>
+     
+    </tr>
+    <tr>
+      <td scope="row">Категорування приміщень за вибухопожежною та пожежною небезпекою
+</td>
+      <td>від 4000грн</td>
+     
+    </tr>
+     <tr>
+      <td scope="row">Плани евакуації – А3 – звичайні ламіновані 
+</td>
+      <td>1000 грн.</td>
+     
+    </tr>
+    <tr>
+      <td scope="row">Плани евакуації – А3 – самосвітні 
+</td>
+      <td>1500 грн.</td>
+     
+    </tr>
+   
+  </tbody>
+</table>
+					</div>
+				</div>
+		
+		
+	
 		<footer id="colorlib-footer" role="contentinfo">
 			<div class="container">
 				<div class="row row-pb-md">
-					<div class="col-md-3 colorlib-widget">
+					<div class="col-md-4 colorlib-widget">
 						<h4>24/7 підтримка</h4>
-						<p>Ми забезпечуємо цілодобову підтримку <a href="tel://1234567920"><i class="icon-phone"></i> (067) 588 53 36</a> </p>
 						<p>Заповнити заявку на виїзд консультанта <a href="forma.html"><i class="icon-check"></i> Заповнити</a></li></p>
 						
 						
 							<ul class="colorlib-social-icons">
 							
-								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							
+								<li><a href="https://www.facebook.com/rptb.com.ua/"><i class="icon-facebook"></i></a></li>
+							    <li><a href="#"><i class="icon-instagram"></i></a></li>
 							</ul>
 						</p>
 					</div>
-					<div class="col-md-3 col-md-push-1">
+					<div class="col-md-4 col-md-push-1">
 						<h4>Графік роботи</h4>
 						<ul class="colorlib-footer-links">
 							<li>Офіс Пн-Пт: 9:00-18:00 </li>
@@ -295,21 +733,9 @@
 							
 						</ul>
 					</div>
-					<div class="col-md-3 col-md-push-1 colorlib-widget">
-						<h4>Інформація</h4>
-						<p>
-							<ul class="colorlib-footer-links">
-								<li><a href="#"><i class="icon-check"></i> ДБН В.2.5-56:2014</a></li>
-								<li><a href="#"><i class="icon-check"></i> ДБН В.2.5-76:2014</a></li>
-								<li><a href="#"><i class="icon-check"></i> ДСТУ-Н Б Б.1.1-19:2013</a></li>
-								<li><a href="#"><i class="icon-check"></i> Ідентифікація пно - приклад</a></li>
-								<li><a href="#"><i class="icon-check"></i> Паспорт пно</a></li>
-								
-							</ul>
-						</p>
-					</div>
+				
 
-					<div class="col-md-3 col-md-push-1">
+					<div class="col-md-4 col-md-push-1">
 						<h4>Контакти</h4>
 						<ul class="colorlib-footer-links">
 							<li>79022 м.Львів <br> вул.Садова 2а</li>
@@ -351,6 +777,7 @@
 	<script src="js/jquery.countTo.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/smoothscroll.js"></script>
 
 	</body>
 </html>
