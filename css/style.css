@@ -15,7 +15,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
-  color: gray;
+  color: #666666;
   background: #fff; }
 
 #page {
@@ -278,6 +278,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
   width: 100%;
   float: left; 
+  padding-bottom: 2em;
 }
 
   #colorlib-hero .btn {
@@ -423,7 +424,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-subscribe,
 #colorlib-footer
 {
-  padding: 7em 0;
+  padding: 5em 0;
   clear: both; 
 }
   @media screen and (max-width: 768px) {
