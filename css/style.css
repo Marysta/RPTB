@@ -1571,11 +1571,12 @@ video {
 .colorlib-hero .item .caption h1 {
   font-family: 'Noto Serif', serif;
   margin-top: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   color:white;
   font-size: 60px;
   z-index: -10;
+ 
   
 }
 
